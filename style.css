@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    font-size: .75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    cursor: url(https://i.postimg.cc/W3sMYzZ9/5.png), default !important;
+}
+
+.headText {
+    color: #000;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    width: 40%;
+}
+
+.allTable {
+    border-spacing: 0;
+    width: 40%;
+}
+
+.thSection, .tdSection {
+    background-color: #38495B;
+    padding: 20px;
+}
+
+.thSection {
+    color: rgb(255, 240, 109);
+    text-align: left;
+}
+
+.tdSection {
+    color: #FFF;
+}
+
+.TRR {
+    border-top-left-radius: 5px;
+}
+
+.TRL {
+    border-top-right-radius: 5px;
+}
+
+.BRL {
+    border-bottom-left-radius: 5px;
+}
+
+.BRR {
+    border-bottom-right-radius: 5px;
+}
